@@ -17,6 +17,6 @@ public class HomePage extends BasePage {
     }
 
     public String getCreationButtonText() {
-        return driver.findElements(By.className("btn-success")).get(0).getText();
+        return driver.findElement(By.id("e2e-create-new-apt-hunt-btn")).getText();
     }
 }

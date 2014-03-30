@@ -8,6 +8,6 @@ public class CreateAppHuntScenario extends FunctionalTestBase{
     @Test
     public void shouldCreateNewAppHunt() throws Exception {
         homepage.visit();
-        assertThat(homepage.getCreationButtonText(), is("Splendid!"));
+        assertThat(homepage.getCreationButtonText(), is("Create New Apt Hunt"));
     }
 }
